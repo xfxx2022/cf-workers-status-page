@@ -37,3 +37,15 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+
+  - id: blog.aidengrong.top
+    name: The 番茄酱 Blog
+    url: 'https://blog.aidengrong.top/'
+    method: GET
+    expectStatus: 200
+    
+  - id: https://corp.top
+    name: Corp.Top 中文
+    url: 'https://corp.top/'
+    method: GET
+    expectStatus: 200
